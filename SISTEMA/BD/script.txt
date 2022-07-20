@@ -1,0 +1,53 @@
+CREATE TABLE tbl_evento (
+cod_evento INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+cod_categoria INT NOT NULL,
+cod_usuario INT NOT NULL,
+nm_evento VARCHAR(50) NOT NULL,
+telefone VARCHAR(30) NOT NULL,
+dt_inicio DATE NOT NULL,
+dt_fim DATE NOT NULL,
+hr_inicio TIME NOT NULL,
+hr_fim TIME NOT NULL,
+dt_cadastro DATE NOT NULL,
+valor NUMERIC(7,2)  NOT NULL,
+bairro VARCHAR(50) NOT NULL,
+cidade VARCHAR(50) NOT NULL,
+numero INT NOT NULL,
+rua VARCHAR(70)  NOT NULL,
+descricao VARCHAR(200) NOT NULL,
+adicionais VARCHAR(200) NOT NULL,
+situacao CHAR(1) NOT NULL,
+prioridade CHAR(1) NOT NULL,
+reprovado CHAR(1) NOT NULL,
+vizualizado CHAR(1) NOT NULL
+);
+
+CREATE TABLE tbl_categoria (
+cod_categoria INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+nm_categoria VARCHAR(50) NOT NULL,
+situacao CHAR(1) NOT NULL
+);
+
+CREATE TABLE tbl_usuario (
+cod_usuario INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+nm_usuario VARCHAR(50) NOT NULL,
+email VARCHAR(100) NOT NULL,
+cpf VARCHAR(20) NOT NULL,
+senha VARCHAR(32) NOT NULL,
+cargo CHAR(1)  NOT NULL,
+situacao CHAR(1) NOT NULL
+);
+
+CREATE TABLE tbl_img (
+cod_img INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+cod_evento INT NOT NULL,
+nm_img VARCHAR(30) NOT NULL,
+principal CHAR(1) NOT NULL,
+secundaria CHAR(1) NOT NULL,
+FOREIGN KEY(cod_evento) REFERENCES tbl_evento (cod_evento)
+);
+
+ALTER TABLE tbl_evento ADD FOREIGN KEY(cod_categoria) REFERENCES tbl_categoria (cod_categoria);
+ALTER TABLE tbl_evento ADD FOREIGN KEY(cod_usuario) REFERENCES tbl_usuario (cod_usuario);
+
+insert into tbl_usuario(nm_usuario,email,senha,cpf,situacao,cargo) values ('adm','adm@adm.com','b09c600fddc573f117449b3723f23d64','111.111.111-11','a','a');

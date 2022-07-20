@@ -1,0 +1,199 @@
+.testimonial{
+	background-color: #dee2e2;
+	border-right: 4px solid #dee2e2;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+	padding: 30px 30px 30px 130px;
+	margin: 0 15px 30px 15px;
+	overflow: hidden;
+	position: relative;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.testimonial:after{
+	content: "";
+	position: absolute;
+	top: -4px;
+	left: -17px;
+	border-top: 25px solid #3b3ba5;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	transform: rotate(135deg);
+}
+.testimonial .pic{
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	position: absolute;
+	margin-right: 10px;
+	top: 50px;
+	left: 28px;
+}
+.testimonial .pic img{
+	width: 100%;
+	margin-left:0px; 
+	height: auto;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.testimonial .description{
+	margin-left:40px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #4d5054;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+.testimonial .title{
+	margin-left:40px;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #3b3ba5;
+}
+.testimonial .post{
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 17px;
+	color: #3b3ba5;
+	font-style:italic;
+
+}
+.testimonial .post.corPreco{
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 17px;
+	color: #2e5da5;
+	font-style:normal;
+	font-weight:bold;
+}
+.owl-theme .owl-controls .owl-page span{
+	border: 2px solid #2A3D7D;
+	background: #fff !important;
+	border-radius:0 !important;
+	opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page:hover span{
+	background: #29D18B !important;
+	border-color:#29D18B;
+}
+.margembtAbrirEvento{
+	margin-left: 40px;
+}
+
+.testimonialEventosPassados:after{
+
+	border-top: 25px solid #8B0000;
+
+}
+
+.testimonialEventosPassados .title{
+	color: #e01818;
+}
+.testimonialEventosPassados .post{
+	color: #e01818;
+}
+.testimonial:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.02);
+	transition: all .2s ease-in-out;
+}
+
+
+
+/*Meus cóigos*/
+.tituloMeusEventos{
+	color: #3690f0;
+	text-shadow: 5px 5px 5px #aaa;
+	user-select: none;
+}
+
+.eventosPassados{
+	color: #8B0000	
+}
+.btn-outline-danger{
+	color: #e01818;
+	border-color: #e01818;
+	margin-top: 8px;
+}
+.btn-outline-danger:hover{
+	background-color: #e01818;
+	border-color: #e01818;
+}
+.btn-outline-primary{
+	color: #3b3ba5;
+	border-color: #3b3ba5;
+}
+.btn-outline-primary:hover{
+	background-color: #3b3ba5;
+	border-color: #3b3ba5;
+}
+.btn-outline-success{
+	color: #37bf3b;
+	border-color: #37bf3b;
+	margin-top: 8px;	
+}
+.btn-outline-success:hover{
+	background-color: #37bf3b;
+	border-color: #37bf3b;
+}
+.marginTop{
+	margin-top: 32px;
+}
+.carousel-inner{
+	height: 400px;
+}
+.carousel-inner img{
+	max-height: 400px;
+}
+.carousel-control-next-icon{
+	text-shadow: 1px 1px 6px #5e5e66;
+	filter:drop-shadow(1px 1px 2px #969aa3 );
+	user-select: none;
+}
+.carousel-control-prev-icon{
+	text-shadow: 1px 1px 6px #5e5e66;
+	filter:drop-shadow(1px 1px 2px #969aa3 );
+	user-select: none;
+}
+body{
+	background: #ebeced;
+}
+@media only screen and (max-width: 767px){
+	.testimonial{
+		padding: 20px;
+		text-align: center;
+	}
+	.testimonial .pic{
+		display: block;
+		position: static;
+		margin: 0 auto 15px;
+	}
+
+	.margembtAbrirEvento{
+		margin-left: 0;
+	}
+	.fonteHoje{
+		font-size: 50px;
+	}
+	.testimonial .description{
+		margin-left:0px;
+	}
+	.testimonial .title{
+		margin-left:0px;
+	}
+	.testimonial .post{
+		margin-left: 0px;
+	}
+	.testimonial .post.corPreco{
+		margin-left: 0px;
+	}
+	
+}

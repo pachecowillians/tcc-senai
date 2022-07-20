@@ -1,0 +1,42 @@
+/*MEUS CÓDIGOS*/
+.fonteFina{
+	color: #000;
+	font-size: 70px;
+}
+.btn-outline-danger{
+	color: #e01818;
+	border-color: #e01818;
+}
+.btn-outline-danger:hover{
+	background-color: #e01818;
+	border-color: #e01818;
+}
+.btn-outline-primary{
+	color: #1d58b7;
+	border-color: #1d58b7;
+}
+.btn-outline-primary:hover{
+	background-color: #1d58b7;
+	border-color: #1d58b7;
+}
+.fonteHoje{
+
+	font-size: 40px;
+}
+@font-face {
+	font-family: Monad;
+	src: url('../fonts/Monad.otf');
+}
+.titulo{
+	font-family: 'Monad', cursive;
+	text-shadow: 0px 0px 20px #5e5e66;
+
+}
+body{
+	background: #ebeced;
+}
+@media only screen and (max-width: 767px){
+	.display-3{
+		font-size: 50px;
+	}
+}

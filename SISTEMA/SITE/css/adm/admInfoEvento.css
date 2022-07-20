@@ -1,0 +1,53 @@
+/*MEUS CÓDIGOS*/
+
+p{
+	font-size: 18px;
+}
+.mb{
+	margin-bottom: 0px;
+}
+.centro{
+	text-align: justify-all;
+}
+.carousel-inner{
+	height: 400px;
+}
+.carousel-inner img{
+	max-height: 400px;
+}
+.carousel-control-next-icon{
+	text-shadow: 1px 1px 6px #5e5e66;
+	filter:drop-shadow(1px 1px 2px #969aa3 );
+	user-select: none;
+}
+.carousel-control-prev-icon{
+	text-shadow: 1px 1px 6px #5e5e66;
+	filter:drop-shadow(1px 1px 2px #969aa3 );
+	user-select: none;
+}
+.linhas{
+	border-right: 2px #000 solid;
+	border-left: 2px #000 solid;
+	border-top: none;
+	border-bottom: none;
+}
+body{
+	background: #ebeced;
+}
+@media only screen and (max-width: 767px){
+	.mb{
+		margin-bottom: 10px;
+	}
+	.centro{
+		text-align: center;
+	}
+	.display-3{
+		font-size: 50px;
+	}
+	.linhas{
+		border-right: none;
+		border-left: none;
+		border-top: 2px #000 solid;
+		border-bottom: 2px #000 solid;
+	}
+}

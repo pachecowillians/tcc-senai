@@ -1,0 +1,43 @@
+/*MEUS CÓDIGOS*/
+.fonteFina{
+	color: #000;
+	font-size: 70px;
+}
+.subtituloAtiva{
+	font-size: 45px;
+	color: #3b3ba5;
+}
+.subtituloInativa{
+	font-size: 45px;
+	color: #e01818;
+}
+.btn-outline-danger{
+	color: #e01818;
+	border-color: #e01818;
+}
+.btn-outline-danger:hover{
+	background-color: #e01818;
+	border-color: #e01818;
+}
+.btn-outline-primary{
+	color: #3b3ba5;
+	border-color: #3b3ba5;
+}
+.btn-outline-primary:hover{
+	background-color: #3b3ba5;
+	border-color: #3b3ba5;
+}
+body{
+	background: #ebeced;
+}
+@media only screen and (max-width: 767px){
+	.fonteFina{
+		font-size: 50px;
+	}
+	.subtituloAtiva{
+		font-size: 25px;
+	}
+	.subtituloInativa{
+		font-size: 25px;
+	}
+}

@@ -1,0 +1,241 @@
+/*CARROSEL*/
+
+.carousel-inner.carroselHoje .carousel-item.active,
+.carousel-inner.carroselHoje .carousel-item-next,
+.carousel-inner.carroselHoje .carousel-item-prev {
+	display: flex;
+	overflow: hidden;
+	height: 360px;
+	min-width: 2000px;
+	margin-bottom: 40px;
+
+}
+.tm_Padrao{
+	width: 270px;
+	height: auto;
+
+
+}
+.t{
+	width: 270px;
+	height: auto;
+
+}
+.carousel-inner.carroselHoje .carousel-item-right.active,
+.carousel-inner.carroselHoje .carousel-item-next {
+	transform: translateX(15%);
+}
+
+.carousel-inner.carroselHoje .carousel-item-left.active, 
+.carousel-inner.carroselHoje .carousel-item-prev {
+	transform: translateX(-15%)
+}
+
+.carousel-inner.carroselHoje .carousel-item-right,
+.carousel-inner.carroselHoje .carousel-item-left{ 
+	transform: translateX(0);
+}
+
+
+
+/*IMAGEM*/
+
+@charset "UTF-8";
+/*!
+ * ImageHover.css - http://www.imagehover.io
+ * Version 1.0	
+ * Author: Ciarán Walsh
+
+ * Made available under a MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+
+ */
+
+ /*MEUS CÓDIGOS*/
+ .btn-outline-primary{
+ 	color: #1d58b7;
+ 	border-color: #1d58b7;
+ }
+ .btn-outline-primary:hover{
+ 	background-color: #1d58b7;
+ 	border-color: #1d58b7;
+ }
+ .imagemFundo{
+ 	background-image:url(../img/testefundo.jpg); 
+ 	background-repeat: no-repeat; 
+ 	background-size: cover; 
+ }
+
+
+
+ .hj{
+ 	color: #000;
+ }
+ .titulo{
+ 	font-family: 'Rock Salt', cursive;
+ 	text-shadow: 0px 0px 20px #5e5e66;
+ 	filter:drop-shadow(0 0 10px #969aa3 );
+ }
+
+
+
+
+ a:link {text-decoration: none}
+
+ .display-3{
+ 	color: #fff;
+ 	font-size: 100px;
+ }
+
+ .fonteHoje{
+ 	color: #000;
+ 	font-size: 70px;
+ }
+ .textoBranco{
+ 	color: #fff;
+ }
+ .semBorda:focus{
+ 	box-shadow: none;
+ }
+ .carousel-inner{
+ 	height: 400px;
+ }
+ .carousel-inner img{
+ 	max-height: 400px;
+ }
+ .carousel-control-next-icon{
+ 	text-shadow: 1px 1px 6px #5e5e66;
+ 	filter:drop-shadow(1px 1px 2px #969aa3 );
+ 	user-select: none;
+ }
+ .carousel-control-prev-icon{
+ 	text-shadow: 1px 1px 6px #5e5e66;
+ 	filter:drop-shadow(1px 1px 2px #969aa3 );
+ 	user-select: none;
+ }
+
+
+ .pesquisa{
+ 	width: 100%;
+ 	min-height: 80px;
+ 	border-bottom: 1px solid #aaa;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	padding-left: 50px;
+ 	padding-right: 50px;
+ }
+ .imgPesquisa{
+ 	width: 100%;
+ 	height: auto;
+ }
+ .pesquisaSemBorda{
+ 	width: 100%;
+ 	min-height: 80px;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	padding-left: 50px;
+ 	padding-right: 50px;
+
+ }
+ .estruturaCard{
+
+ 	margin-bottom: 20px;
+
+ }
+ .fotoCard{
+ 	width: 120px;
+ 	height: 120px;
+ 	border-radius: 10px;
+ 	filter:drop-shadow(1px 1px 2px #969aa3 );
+
+ }
+ div.contDiv{
+ 	padding-left: 15px;
+ 	padding-right: 15px;
+ 	border: 1px solid #c8c8c8;
+ 	border-radius: 10px;
+ 	background-color: #e0e0e0;
+ 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+ }
+ div.contDiv:hover {
+ 	-webkit-transform: scale(1.2);
+ 	-moz-transform: scale(1.2);
+ 	-o-transform: scale(1.2);
+ 	-ms-transform: scale(1.2);
+ 	transform: scale(1.05);
+ 	transition: all .2s ease-in-out;
+ }
+ img.imgPesquisa{
+ 	border-radius: 8px;
+ }
+ .rodapeCard{
+ 	width: 120px;
+ 	height: auto;
+ }
+ input:hover, button:hover, textarea:hover, select:hover{
+ 	box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+ }
+ input, button, textarea,select{
+ 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+ }
+ body{
+ 	background: #ebeced;
+ }
+ a:link{
+ 	text-decoration: none;
+ 	color: #000;
+ }
+ a:hover{
+ 	color: #000;
+ }
+ a{
+ 	text-decoration: none;
+ 	color: #000;
+ }
+
+ @media only screen and (max-width: 767px){
+ 	.imagemFundo{
+ 		background-image:none; 
+ 		background-color: #4682B4;
+ 	}
+ 	.fonteHoje{
+ 		font-size: 30px;
+ 	}
+ 	.pesquisa{
+ 		width: 100%;
+ 		height: 150px;
+ 		border-bottom: 1px solid #aaa;
+ 		padding-top: 20px;
+ 		padding-bottom: 20px;
+ 		padding-left: 50px;
+ 		padding-right: 50px;
+ 	}
+ 	.pesquisaSemBorda{
+ 		width: 100%;
+ 		height: auto;
+ 		padding-top: 20px;
+ 		padding-bottom: 20px;
+ 		padding-left: 50px;
+ 		padding-right: 50px;
+ 	}
+ 	.input-group{
+ 		margin-bottom: 30px;
+ 	}
+
+ 	.estruturaCard{
+
+ 		margin-bottom: 20px;
+ 	}
+ 	.fotoCard{
+ 		width: 120px;
+ 		height: 120px;
+ 		border: 1px solid #aaa;
+ 	}
+ 	.rodapeCard{
+ 		width: 120px;
+ 		height: auto;
+
+ 	}
+
+ }

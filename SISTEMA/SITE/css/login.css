@@ -1,0 +1,83 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #110c23;
+}
+.centro{
+  text-align: center;
+}
+.branco{
+  color: #fff;
+}
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+a:link 
+{ 
+  text-decoration:none; 
+}
+body{
+  /*fonte boa*/
+  font-family: 'Sintony', sans-serif;
+}
+input:hover, button:hover{
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+input, button{
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+@keyframes neon{
+  from{
+    filter:drop-shadow(0 0 5px var(--cor-neon));
+  }
+  to{
+    filter:drop-shadow(0 0 20px var(--cor-neon));
+  }
+}
+
+img{
+  animation: neon 1.3s alternate infinite ease-in-out
+}
+
+.pisca{
+  --cor-neon: #fff;
+}
+a{
+  color: #6db3f2;
+}

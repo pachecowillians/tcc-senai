@@ -1,0 +1,173 @@
+.testimonial{
+	background-color: #dee2e2;
+	border-right: 4px solid #dee2e2;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+	padding: 30px 30px 30px 130px;	
+	margin: 0 15px 30px 15px;
+	overflow: hidden;
+	position: relative;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+.testimonial:after{
+	content: "";
+	position: absolute;
+	top: -4px;
+	left: -17px;
+	border-top: 25px solid #1d58b7;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	transform: rotate(135deg);
+}
+.testimonial .pic{
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	position: absolute;
+	margin-right: 10px;
+	top: 25%;
+	left: 28px;	
+}
+.testimonial .pic img{
+	width: 100%;
+	height: auto;
+	margin-left:0px; 
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.testimonial .description{
+	margin-left:40px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #4d5054;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+.testimonial .title{
+	margin-left:40px;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #1d58b7;
+}
+.testimonial .post{
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 17px;
+	color: #1d58b7;
+	font-style:italic;
+
+}
+.testimonial .post.corPreco{
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 17px;
+	color: #2e5da5;
+	font-style:normal;
+	font-weight:bold;
+}
+.owl-theme .owl-controls .owl-page span{
+	border: 2px solid #2A3D7D;
+	background: #fff !important;
+	border-radius:0 !important;
+	opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page:hover span{
+	background: #29D18B !important;
+	border-color:#29D18B;
+}
+.margembtAbrirEvento{
+	margin-left: 40px;
+}
+
+.testimonial:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.02);
+	transition: all .2s ease-in-out;
+}
+/*Fim card*/
+
+/*Meus códigos*/
+
+/*Botão*/
+.btn-outline-primary{
+	color: #1d58b7;
+	border-color: #1d58b7;
+}
+.btn-outline-primary:hover{
+	background-color: #1d58b7;
+	border-color: #1d58b7;
+}
+.btn-outline-danger{
+	color: #8B0000;
+	border-color: #8B0000;
+}
+.btn-outline-danger:hover{
+	background-color: #8B0000;
+	border-color: #8B0000;
+}
+/*Fim botão*/
+
+.fonteHoje{
+	color: #000;
+	font-weight: 140;
+	font-size: 80px;
+}
+ @font-face {
+ 	font-family: Monad;
+ 	src: url('../fonts/Monad.otf');
+ }
+.titulo{
+	font-family: 'Monad', cursive;
+	text-shadow: 0px 0px 15px #5e5e66;
+	filter:drop-shadow(0 0 10px #969aa3 );
+	user-select: none;
+}
+
+.textoNormal{
+	font-size: 30px;
+}
+
+/*Media query*/
+body{
+	background: #ebeced;
+}
+@media only screen and (max-width: 767px){
+	.testimonial{
+		padding: 20px;
+		text-align: center;
+	}
+	.testimonial .pic{
+		display: block;
+		position: static;
+		margin: 0 auto 15px;
+	}
+
+	.margembtAbrirEvento{
+		margin-left: 0;
+	}
+	.fonteHoje{
+		font-size: 50px;
+	}
+	.testimonial .description{
+		margin-left:0px;
+	}
+	.testimonial .title{
+		margin-left:0px;
+	}
+	.testimonial .post{
+		margin-left: 0px;
+	}
+	.testimonial .post.corPreco{
+		margin-left: 0px;
+	}
+}

@@ -1,0 +1,17 @@
+/*MEUS CÓDIGOS*/
+
+.mb{
+	margin-bottom: 0px;
+}
+
+body{
+	background: #ebeced;
+}
+@media only screen and (max-width: 767px){
+	.mb{
+		margin-bottom: 15px;
+	}
+	.display-3{
+		font-size: 50px;
+	}
+}

@@ -1,0 +1,38 @@
+input:hover, button:hover, select:hover{
+	box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+input, button, select{
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.btn-outline-danger{
+	color: #e01818;
+	border-color: #e01818;
+}
+.btn-outline-danger:hover{
+	background-color: #e01818;
+	border-color: #e01818;
+}
+.btn-outline-primary{
+	color: #3b3ba5;
+	border-color: #3b3ba5;
+}
+.btn-outline-primary:hover{
+	background-color: #3b3ba5;
+	border-color: #3b3ba5;
+}
+.btn-outline-success{
+	color: #37bf3b;
+	border-color: #37bf3b;
+}
+.btn-outline-success:hover{
+	background-color: #37bf3b;
+	border-color: #37bf3b;
+}
+body{
+	background: #ebeced;
+}
+@media only screen and (max-width: 767px){
+	.display-3{
+		font-size: 50px;
+	}
+}

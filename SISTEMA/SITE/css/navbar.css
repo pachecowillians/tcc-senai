@@ -1,0 +1,76 @@
+.navbar{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6db3f2+2,54a3ee+28,54a3ee+30,54a3ee+46,3690f0+54,1e69de+78 */
+	background: #6db3f2; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #1e69de 5%,#54a3ee 28%,#54a3ee 30%,#54a3ee 46%,#3690f0 54%,#110c23 78%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #1e69de 5%,#54a3ee 28%,#54a3ee 30%,#54a3ee 46%,#3690f0 54%,#110c23 78%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #1e69de 5%,#54a3ee 28%,#54a3ee 30%,#54a3ee 46%,#3690f0 54%,#110c23 78%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	font-family: 'Monad', cursive;
+}
+.fundoHoje{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+	background: #7d7e7d; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+body{
+	/*fonte boa*/
+	font-family: 'Sintony', cursive;
+}
+.nav-item{
+	min-width: 70px;
+	text-align: center;
+}
+.semMargem{
+	min-width: 10px;
+}
+
+.usuario{
+	border-bottom: 2px solid #fff;
+/*	border-top: 2px solid #fff;
+	border-right: 3px solid #fff;
+	border-left: 3px solid #fff;*/
+
+}
+.margemD{
+	margin-right: 10px;
+}
+.fonteHoje1{
+	color: #000;
+	font-size: 50px;
+}
+.fonteHoje{
+	color: #000;
+	font-size: 70px;
+}
+@font-face {
+	font-family: Monad;
+	src: url('../fonts/Monad.otf');
+}
+.titulo{
+	font-family: 'Monad', cursive;
+	text-shadow: 0px 0px 20px #5e5e66;
+	filter:drop-shadow(0 0 10px #969aa3 );
+}
+
+
+
+a, a:link{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+}
+
+
+@media only screen and (max-width: 767px){
+	.margemD{
+		margin-right: 0px;
+	}
+	.fonteHoje{
+		font-size: 30px;
+	}
+}
